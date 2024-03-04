@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles/reset.css">
+  <link rel="stylesheet" type="text/css" href="styles/fonts.css">
+  <link rel="stylesheet" type="text/css" href="styles/global.css">
+  <link rel="stylesheet" type="text/css" href="styles/lab_four_starter.css">
+  <script src="https://kit.fontawesome.com/651281ade4.js" crossorigin="anonymous"></script>
+  <title>Common Website Features</title>
+</head>
+<body>
+  <section class="hero-container">
+    <div class="hero-banner">
+    <h1>Lab #4</h1>
+    <h2>Using Common Website Features</h2><div>
+    <img class="hero-image" src="assets/HeroBanner.jpg" alt="colored pencils lined in a row"></div>
+    </div>
+ 
+  </section>
+  <section class="container content-container">
+    <div class="content-section">
+      <h1>Content</h1>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis tempora magnam laborum, porro velit, voluptas, molestias beatae provident dolorum nam quidem dolor delectus. Facilis doloremque id dicta, accusamus exercitationem alias.</p>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad reiciendis dicta similique necessitatibus quibusdam. A recusandae, voluptate aspernatur reprehenderit, incidunt est consequatur amet doloremque, quas nobis veniam perspiciatis quisquam ab!</p>
+
+      <p class="font-awesome">
+        <i class="fa-solid fa-circle-chevron-right"></i> 
+        Click here to learn more</p>
+
+      <div>
+        <img class="content-image" src="assets/Deskwithlaptop.jpg" alt="desk with laptop and notebooks"></div>
+        </div>
+    </div>
+  </section>
+
+
+  <section class="container accordion-container">
+    <div class="accordian">
+      <h1>Accordion</h1>
+
+      <ul class="accordian">
+        <li>
+          <input type="radio" name="accordian" id="first" checked>
+          <label for="first">Products</label>
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora blanditiis itaque aut accusamus soluta, culpa at! Nam tempore accusantium corrupti ea eaque placeat. Maiores perferendis odit, quaerat illo sunt placeat?</p>
+          </div>
+        </li>
+        <li>
+          <input type="radio" name="accordian" id="second">
+          <label for="second">Information</label>
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora blanditiis itaque aut accusamus soluta, culpa at! Nam tempore accusantium corrupti ea eaque placeat. Maiores perferendis odit, quaerat illo sunt placeat?</p>
+          </div>
+        </li>
+        <li>
+          <input type="radio" name="accordian" id="third">
+          <label for="third">FAQs</label>
+          <div class="content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora blanditiis itaque aut accusamus soluta, culpa at! Nam tempore accusantium corrupti ea eaque placeat. Maiores perferendis odit, quaerat illo sunt placeat?</p>
+          </div>
+        </li>
+        </ul>
+
+    </div>
+  </section>
+  <section class="footer-container">
+    <!-- Remove and add footer HTML -->
+    <div class="remove-assignment-content">
+      <h1>Footer</h1>
+      <footer>
+        <p>Copyright &copy; <span id="copyrightYear"></span>, Lab #4</p>
+    </footer>
+    <script>
+        document.getElementById("copyrightYear").textContent = new Date().getFullYear();
+    </script>
+
+    </div>
+  </section>
+</body>
+</html>
