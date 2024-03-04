@@ -15,7 +15,7 @@ body {
 .hero-container {
   background-color: #403d58;
   background-image: url(/assets/HeroBanner.jpg);
-  color: black;
+  color: #F45B69;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
