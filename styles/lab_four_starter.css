@@ -12,25 +12,25 @@ body {
   font-family: inter, sans-serif;
 }
 
+.hero-image {
+  background-image: url("/assets/HeroBanner.jpg");
+  width: 100%;
+  height: 600px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
 .hero-container {
   background-color: #403d58;
   color: #F45B69;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  padding: 10px;
   text-align: center;
   justify-content: center;
 }
-
-.hero-banner h1 {
-  text-align: center;
-}
-
-.hero-image {
-  width: 100%;
-  height: 100%;
-    }
 
 
 .content-container {
