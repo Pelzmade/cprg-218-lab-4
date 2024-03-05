@@ -23,6 +23,9 @@ body {
   justify-content: center;
 }
 
+.hero-banner h1 {
+  text-align: center;
+}
 
 .hero-image {
   width: 100%;
@@ -94,7 +97,7 @@ body {
   margin: 20px;
   padding: 10px;
   border-radius: 8px;
-  background-color: #e3edf7;
+  background-color: white;
 }
 
 .accordian li label {
@@ -125,7 +128,7 @@ display: none;
 }
 
 .accordian .content {
-  color: #555;
+  color: black;
   padding: 0 10px;
   line-height: 26px;
   max-height: 0;
@@ -145,7 +148,7 @@ display: none;
 .footer-container {
   background-color: #f2efea;
   width: 100%;
-  height: 700px;
+  height: 100%;
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -170,8 +173,8 @@ display: none;
       justify-content: space-between;
       align-items: center;
       margin: 100px 0;
-
     }
+
 .map-content h1 {
   color: #333;
   margin-bottom: 60px;
@@ -187,4 +190,43 @@ display: none;
   iframe {
     width: 80%;
   }
+}
+
+.links p {
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.links .privacy {
+  font-size: 24px; 
+  color: black;
+  cursor: pointer;
+  margin: 80px 60px;
+}
+
+.links .terms {
+  font-size: 24px; 
+  color: black;
+  cursor: pointer;
+  margin: 80px 60px;
+}
+
+.links .accessibility {
+  font-size: 24px; 
+  color: black;
+  cursor: pointer;
+  margin: 80px 60px;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+  }
+}
+
+footer {
+  text-align: left;
+  margin: 20px;
 }
