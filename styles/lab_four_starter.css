@@ -131,6 +131,7 @@ display: none;
   line-height: 26px;
   max-height: 0;
   overflow: hidden;
+  cursor: pointer;
   transition: max-height 0.5s, padding 0.5s;
 }
 
